@@ -1,0 +1,22 @@
+.busses {
+    background-color: coral;
+}
+
+.detour {
+    background-color: rgb(54, 154, 161);
+}
+
+.stop1, .stop2 {
+    /* font-size: 10vw; */
+    /* margin: 10px 10px; */
+}
+
+/* #test {
+ display: flex;
+ flex-direction: row;
+ align-content: space-between; 
+} */
+
+h1 span {
+    float: right;
+}
