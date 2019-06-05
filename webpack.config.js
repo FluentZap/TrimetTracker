@@ -6,6 +6,7 @@ const Dotenv = require('dotenv-webpack');
 
 module.exports = {
     mode: 'development',
+    target: 'node',
     entry: './src/main.js',
     output: {
         filename: 'bundle.js',
@@ -24,6 +25,7 @@ module.exports = {
             inject: 'body'
         }),
         new webpack.ProvidePlugin({
+            request: 'request',
             $: 'jquery',
             jQuery: 'jquery',
             'window.jQuery': 'jquery',
